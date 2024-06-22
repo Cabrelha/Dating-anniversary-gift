@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Destino</title>
+    <link rel="website icon" type="png" href="../Assets/star-icon.png" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+    <link rel="stylesheet" href="realize.css" />
+  </head>
+  <body>
+    <div id="conteudo">
+      <h2 id="texto">Estarei com você até que as estrelas esfriem</h2>
+    </div>
+
+    <html>
+      <body class="scissors">
+        <div class="envelop">
+          <div class="envelop__front-paper"></div>
+          <div class="envelop__back-paper"></div>
+          <div class="envelop__up-paper js-up-paper"></div>
+          <div class="envelop__sticker js-sticker"></div>
+          <div class="envelop__false-sticker"></div>
+          <div class="envelop__content js-envelop-content">
+            <div class="love-notes">
+              <div class="note js-note">
+                <div class="note__text">
+                  <p>
+                    Oi amor, 4 anos né? Nós chegamos até aqui juntos. Passamos
+                    por tantas situações difíceis e complexas juntos, não posso
+                    dizer que foi fácil, mas o fato de saber que podia contar
+                    com você sempre faz viver nesse mundo se tornar algo mais
+                    fácil e tolerável. 
+                  </p>
+                </div>
+              </div>
+              <div class="note js-note">
+                <div class="note__text">
+                  <p>
+                    Então confie em mim! As coisas podem
+                    estar difíceis e pode parecer que não tem jeito e que está
+                    tudo dando errado, mas nós temos um ao outro e sempre vamos
+                    encontrar uma saída! Sei que tem sido cansativo lidar com a
+                    vida, mas a gente está chegando tão perto da melhor parte
+                    dela… A parte em que finalmente ficaremos juntos.Te amo muito! &hearts;.</p>
+                </div>
+              </div>
+              <div class="note js-note">
+                <div class="note__photo">
+                  <img id="photo" src="../Assets/thigas e gih.png" alt="" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </html>
+    <!-- partial -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="scritpt.js"></script>
+
+    <audio controls autoplay id="music">
+      <source
+        src="../Assets/music/The Cure - Friday Im In Love.mp3"
+        type="audio/mpeg"
+      />
+      Your browser does not support the audio element.
+    </audio>
+    <p>Click the buttons to play or pause the music.</p>
+
+    <script>
+      var myMusic = document.getElementById("music");
+      function play() {
+        myMusic.play();
+      }
+      function pause() {
+        myMusic.pause();
+      }
+    </script>
+
+    <style>
+      #conteudo {
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        padding: 10px;
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      #texto {
+        color: whitesmoke;
+      }
+    </style>
+
+    <section class="wrapper">
+      <div id="stars"></div>
+      <div id="stars2"></div>
+      <div id="stars3"></div>
+    </section>
+  </body>
+</html>

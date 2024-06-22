@@ -1,0 +1,169 @@
+@font-face {
+  font-family: Product Sans;
+  src: url(Fonts/Product\ Sans\ Regular.ttf);
+}
+@font-face {
+  font-family: Product Sans B;
+  src: url(Fonts/Product\ Sans\ Bold.ttf);
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Product Sans;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+#main {
+  width: 100%;
+  height: 100vh;
+  background-color: orangered;
+}
+
+nav {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 10vh;
+  padding: 0vw 10vw;
+  z-index: 99;
+}
+
+nav a,
+i {
+  font-size: 1vw;
+  text-decoration: none;
+  color: #fff;
+}
+
+.cntr-nav {
+  margin: 0 auto;
+  margin-left: 27%;
+  align-items: center;
+  display: flex;
+  gap: 3vw;
+}
+
+nav i {
+  font-size: 1.5vw;
+}
+
+.one {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(#5c5411, #0e0e0e);
+}
+
+.one h1 {
+  font-size: 25vw;
+  font-family: Product Sans B;
+  color: #fff;
+}
+
+#Castle {
+  margin-top: 21%;
+  height: 134%;
+  width: 110%;
+  margin-left: 59%;
+  margin-bottom: 12%;
+}
+
+#AluGio {
+  position: absolute;
+  margin-right: 5%;
+  z-index: 2;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#Cueiovamp {
+  position: absolute;
+  width: 20%;
+  z-index: 3;
+  margin-right: 50%;
+  margin-top: 6%;
+  top: 50%;
+  right: 30%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#bat3 {
+  top: 10%;
+  left: 0%;
+  transform: rotate(60deg);
+  position: absolute;
+  width: 18%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#bat2 {
+  top: 70%;
+  left: 80%;
+  transform: rotate(-90deg);
+  position: absolute;
+  width: 12%;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.5s;
+}
+
+#galho {
+  position: absolute;
+  width: 25%;
+  top: 10%;
+  margin-top: 9%;
+  left: -1%;
+}
+
+#galho2 {
+  position: absolute;
+  width: 15%;
+  top: 10%;
+  right: 0%;
+}
+
+.two {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  background: #4d231c;
+}
+
+.lft-two,
+.right-two {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 5vh;
+  width: 50%;
+  height: 90%;
+}
+
+.lft-two svg {
+  margin-top: 50vh;
+  width: 90%;
+  transform: rotateX(50deg);
+}
+
+.right-two h1 {
+  color: #fff;
+  font-size: 4vw;
+}
+
+.right-two p {
+  font-size: 170%;
+  color: #fff;
+  width: 85%;
+  margin-top: -40px;
+}
